@@ -2,7 +2,7 @@ import org.scalatest.{FlatSpec, Matchers}
 
 class CanaryTest extends FlatSpec with Matchers{
 
-  it should "return I when given 1" in {
+ /* it should "return I when given 1" in {
 
     RomanNumerals.numeralsConverter(1) shouldBe "I"
   }
@@ -67,5 +67,10 @@ class CanaryTest extends FlatSpec with Matchers{
   it should "return M when given 1000" in {
 
     RomanNumerals.numeralsConverter(1000) shouldBe "M"
+  }*/
+
+  it should "return CDXCVI when given 496" in {
+
+    RomanNumerals.numeralsConverter(496) shouldBe "CDXCVI"
   }
 }
